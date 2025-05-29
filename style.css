@@ -1,12 +1,6 @@
 @charset "utf-8";
 
-/* 属性指定 */
-[target] {
-  font-weight: bold;
-  text-decoration: none;
-}
-
-/* type属性の中の値も指定 */
-[type="password"] {
-  border: 8px solid blue;
+/* div要素で||クラスがboxをセレクト */
+div.box {
+  color: red;
 }
