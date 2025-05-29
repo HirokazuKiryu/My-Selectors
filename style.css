@@ -1,12 +1,11 @@
 @charset "utf-8";
 
-/* div要素で||クラスがboxをセレクト */
-div.box {
+/* sectionの子要素のpを指定 */
+section > p {
   color: red;
 }
 
-/* h1またはp要素 */
-h1,
-p {
-  background: pink;
+/* sectionの中の子孫要素を指定 */
+section p {
+  background: skyblue;
 }
