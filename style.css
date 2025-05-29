@@ -1,11 +1,6 @@
 @charset "utf-8";
 
-/* sectionの子要素のpを指定 */
-section > p {
-  color: red;
-}
-
-/* sectionの中の子孫要素を指定 */
-section p {
-  background: skyblue;
+li + li {
+  /* border-bottom: 1px solid red; */
+  border-top: 1px solid red;
 }
