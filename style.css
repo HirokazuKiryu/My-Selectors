@@ -4,3 +4,12 @@
 div.box {
   color: red;
 }
+
+/* h1またはp要素 */
+h1,
+p {
+  background: pink;
+}
+
+
+
