@@ -1,5 +1,26 @@
 @charset "utf-8";
 
-li:nth-child(3) {
+/* odd=奇数番目 */
+/* li:nth-child(odd) {
   color: red;
+} */
+
+/* even=偶数盤目 */
+/* li:nth-child(even) {
+  color: red;
+} */
+
+/* num=nは指定したnumの倍数盤目を指定 */
+li:nth-child(3n) {
+  color: red;
+}
+
+/* 兄弟要素で最初 */
+li:first-child {
+  background: pink;
+}
+
+/* 兄弟要素で最後 */
+li:last-child {
+  background: skyblue;
 }
