@@ -1,21 +1,21 @@
 @charset "utf-8";
 
-/* 1点 */
 a {
-  color: red;
+  color: red !important;
 }
 
-/* 1点 */
 .link {
   color: green;
 }
 
-/* 2点 */
 .link[target] {
-  color: blue;
+  color: pink;
 }
 
-/* 3点 */
 a.link[target] {
   color: yellow;
+}
+
+a.link[href] {
+  color: blue;
 }
