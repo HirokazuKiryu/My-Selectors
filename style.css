@@ -1,9 +1,21 @@
 @charset "utf-8";
 
-p::before {
-  content:'★';
+/* 1点 */
+a {
+  color: red;
 }
 
-p::after {
-  content:'!';
+/* 1点 */
+.link {
+  color: green;
+}
+
+/* 2点 */
+.link[target] {
+  color: blue;
+}
+
+/* 3点 */
+a.link[target] {
+  color: yellow;
 }
